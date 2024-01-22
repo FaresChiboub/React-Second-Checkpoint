@@ -1,0 +1,24 @@
+/* style.css */
+body {
+    background:linear-gradient(rgb(45, 20, 15),rgb(90, 24, 5)) /* Change to blue or any other color you prefer */
+  }
+  
+  .custom-navbar {
+    background:linear-gradient(rgb(165, 115, 53),rgb(100, 13, 10));
+    padding: 15px;
+  }
+  
+  .custom-navbar a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .custom-navbar .nav-item.dropdown:hover .dropdown-menu {
+    background:linear-gradient(rgb(228, 134, 20),rgb(158, 92, 13)); /* Change to cyan or any other color you prefer */
+  }
+  
+  .custom-navbar .nav-item.dropdown:hover .dropdown-menu .nav-link {
+    color: rgb(238, 165, 48);
+  }
+  
